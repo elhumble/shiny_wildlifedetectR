@@ -1,0 +1,13 @@
+name: shiny
+title:
+username:
+account: wildlifedetectr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 796995
+bundleId: 2080756
+url: https://wildlifedetectr.shinyapps.io/shiny/
+when: 1557762682.3506
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: example_parentage.R|Workshop.pdf|Workshop.Rmd|www/.DS_Store|www/heading_temp.jpg|www/image.psd|data

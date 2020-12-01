@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606818739172.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2940A422",
+    "lastKnownWriteTime" : 1559287972,
+    "last_content_update" : 1559287972,
+    "path" : "~/Dropbox/congen/PROJECTS/wildlife_forensics/shiny_wildlifedetectR/scripts/2.1_individualisation.R",
+    "project_path" : "scripts/2.1_individualisation.R",
+    "properties" : {
+        "cursorPosition" : "23,38",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

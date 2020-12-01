@@ -1,0 +1,81 @@
+---
+title: "Species ID report"
+output: html_document
+#   pdf_document:
+#     latex_engine: xelatex
+# header-includes:
+#    - \usepackage{fontspec}
+#    - \setmainfont{Lato}
+params:
+  seq1: NA
+  seq2: NA
+  unk: NA
+  ref: NA
+  align: NA
+  outgroup: NA
+  boot: NA
+---
+
+Generated on **`r format(Sys.time(), '%d %B %Y, %X %Z')`**  
+
+------
+
+Species identification method used: **Phylogeny**  
+Unknown sequence: **`r params$unk`**  
+Reference sequences file used: **`r params$ref`**  
+Number of reference sequences: **`r length(params$seq2)`**  
+Align sequences = **`r params$align`**  
+Bootstraps = **`r params$boot`**  
+Outgroup = **`r params$outgroup`**  
+
+
+```{r, results = "hide", echo=FALSE}
+# The `params` object is available in the document.
+
+params$seq1
+params$seq2
+
+seq <- DNAStringSet(c(params$seq1, params$seq2))
+      
+```
+
+#### Sequence alignment
+
+```{r, echo=FALSE, fig.width = 12, fig.align = "center", message = FALSE, results = "hide"}
+
+#plot(rnorm(params$n), rnorm(params$n))
+
+if(params$align == T){
+  x <- LoadAlignment(seq, align = T)
+}
+      
+if(params$align == F){
+  x <- LoadAlignment(seq, align = F)
+  }
+
+par(mar=c(5,20,4,2)+0.1) # could do something here with counting characters in the IDs
+ape::image.DNAbin(x, col = c("#CB2314", "#FAD510", "#4daf4a", "#5BBCD6", "grey", "black"))
+
+```
+
+#### Phylogeny
+
+```{r, echo=FALSE, fig.width = 12, fig.align = "center", message = FALSE, results = "hide"}
+
+tree <- phyloID(DNAbin = x,
+                model = "auto",
+                outgroup = params$outgroup,
+                gamma = FALSE,
+                bootstraps = as.numeric(params$boot))
+          
+plotPhylo(tree)
+
+```
+
+
+------
+
+#### R version and platform
+```{r}
+sessionInfo()
+```

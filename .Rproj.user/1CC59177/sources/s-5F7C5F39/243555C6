@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557311925289.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "243555C6",
+    "lastKnownWriteTime" : 1560931313,
+    "last_content_update" : 1560931313,
+    "path" : "~/Dropbox/congen/PROJECTS/wildlife_forensics/shiny_wildlifedetectR/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+        "cursorPosition" : "218,49",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

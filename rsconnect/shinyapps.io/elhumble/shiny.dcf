@@ -1,0 +1,13 @@
+name: shiny
+title: shiny
+username:
+account: elhumble
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 929104
+bundleId: 2085899
+url: https://elhumble.shinyapps.io/shiny/
+when: 1557916288.99268
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: example_parentage.R|Workshop.pdf|Workshop.Rmd|www/.DS_Store|www/heading_temp.jpg|www/image.psd|data

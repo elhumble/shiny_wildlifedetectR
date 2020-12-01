@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560783403747.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A77ABCC2",
+    "lastKnownWriteTime" : 1559738912,
+    "last_content_update" : 1559738912,
+    "path" : "~/Dropbox/congen/PROJECTS/wildlife_forensics/shiny_wildlifedetectR/scripts/4.1_haplotype_network.R",
+    "project_path" : "scripts/4.1_haplotype_network.R",
+    "properties" : {
+        "cursorPosition" : "23,42",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
